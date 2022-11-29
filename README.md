@@ -5,7 +5,7 @@ This is the home repository for the Hungarian version of the Recognizing Textual
 
 The files are in the 'data' folder. The dataset contains 4 504 instances. These contain a (sometimes multi-sentence) premise and a one-sentence hypothesis, and the task is to decide whether the former entails the latter or not. The task is binary classification.
 
-The train, validation and test sets contain 2 131, 242 and 2 131 instances, respectively. The test set is distributed without the labels; to evaluate your model please contact us (ligeti-nagy.noemi@nytud.hu) or visit [HuLU's website](hulu.nytud.hu) for an automatic evaluation. The metric of the evaluation is accuracy.
+The train, validation and test sets contain 2 131, 242 and 2 131 instances, respectively. The test set is distributed without the labels; to evaluate your model please contact us (ligeti-nagy.noemi@nytud.hu) or visit [HuLU's website](hulu.nytud.hu) for an automatic evaluation. The metric of the evaluation is MCC.
 
 ## Data format
 
