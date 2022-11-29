@@ -46,11 +46,21 @@ and
 
 Bar-Haim, R., Dagan, I., Dolan, B., Ferro, L., Giampiccolo, D., Magnini, B., Szpektor, I.: The Second PASCAL Recognising Textual Entailment Challenge. In: Proceedings of the Second PASCAL Challenges Workshop on Recognizing Textual Entailment, Venice, Italy. pp. 1–9 (2006).
 
+```bibtex
+@InProceedings{rte2,
+author="Roy Bar-Haim and Ido Dagan and Bill Dolan and Lisa Ferro and Danilo Giampiccolo and Bernardo Magnini and Idan Szpektor",
+title="{The Second PASCAL Recognising Textual Entailment Challenge}",
+booktitle="Proceedings of the Second PASCAL Challenges Workshop on Recognizing Textual Entailment, Venice, Italy",
+year="2006",
+pages="1--9"
+}
+```
+
 and 
 
 Giampiccolo, D., Magnini, B., Dagan, I., Dolan, B.: The Third PASCAL Recognizing Textual Entailment Challenge. In: Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing. p. 1–9. RTE ’07 (2007).
 
-```
+```bibtex
 @inproceedings{rte3,
 author = {Giampiccolo, Danilo and Magnini, Bernardo and Dagan, Ido and Dolan, Bill},
 title = {{The Third PASCAL Recognizing Textual Entailment Challenge}},
@@ -67,4 +77,12 @@ and
 
 Bentivogli, L., Dagan, I., Dang, H.T., Giampiccolo, D., Magnini, B.: The Fifth PASCAL Recognizing Textual Entailment Challenge. In: Proceedings of the TAC Workshop (2009).
 
-
+```bibtex
+@inproceedings{rte5,
+author = {Luisa Bentivogli and Ido Dagan and Hoa Trang Dang and Danilo Giampiccolo and Bernardo Magnini},
+title = {{The Fifth PASCAL Recognizing Textual Entailment Challenge}},
+year = {2009},
+booktitle = {Proceedings of the TAC Workshop},
+location = {Gaithersburg, MD, USA}
+}
+```
