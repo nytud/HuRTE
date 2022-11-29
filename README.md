@@ -30,7 +30,7 @@ If you use this resource or any part of its documentation, please refer to:
 
 Ligeti-Nagy, N., Ferenczi, G., Héja, E., Jelencsik-Mátyus, K., Laki, L. J., Vadász, N., Yang, Z. Gy. and Váradi, T. (2022) HuLU: magyar nyelvű benchmark adatbázis kiépítése a neurális nyelvmodellek kiértékelése céljából [HuLU: Hungarian benchmark dataset to evaluate neural language models]. In: Berend, G., Gosztolya, G. and Vincze, V. (eds), XVIII. Magyar Számítógépes Nyelvészeti Konferencia. Szeged, Szegedi Tudományegyetem, Informatikai Intézet. 431–446.
 
-```
+```bibtex
 @inproceedings{ligetinagy2022hulu,
   title={HuLU: magyar nyelvű benchmark adatbázis kiépítése a neurális nyelvmodellek kiértékelése céljából},
   author={Ligeti-Nagy, N. and Ferenczi, G. and Héja, E. and Jelencsik-Mátyus, K. and Laki, L. J. and Vadász, N. and Yang, Z. Gy. and Váradi, T.},
@@ -44,22 +44,27 @@ Ligeti-Nagy, N., Ferenczi, G., Héja, E., Jelencsik-Mátyus, K., Laki, L. J., Va
 ```
 and 
 
-Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts (2013), Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank. In: Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing. 1631--1642.
+Bar-Haim, R., Dagan, I., Dolan, B., Ferro, L., Giampiccolo, D., Magnini, B., Szpektor, I.: The Second PASCAL Recognising Textual Entailment Challenge. In: Proceedings of the Second PASCAL Challenges Workshop on Recognizing Textual Entailment, Venice, Italy. pp. 1–9 (2006).
+
+and 
+
+Giampiccolo, D., Magnini, B., Dagan, I., Dolan, B.: The Third PASCAL Recognizing Textual Entailment Challenge. In: Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing. p. 1–9. RTE ’07 (2007).
+
 ```
-@inproceedings{socher-etal-2013-recursive,
-    title = "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
-    author = "Socher, Richard  and
-      Perelygin, Alex  and
-      Wu, Jean  and
-      Chuang, Jason  and
-      Manning, Christopher D.  and
-      Ng, Andrew  and
-      Potts, Christopher",
-    booktitle = "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing",
-    month = oct,
-    year = "2013",
-    address = "Seattle, Washington, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/D13-1170",
-    pages = "1631--1642",
+@inproceedings{rte3,
+author = {Giampiccolo, Danilo and Magnini, Bernardo and Dagan, Ido and Dolan, Bill},
+title = {{The Third PASCAL Recognizing Textual Entailment Challenge}},
+year = {2007},
+abstract = {This paper presents the Third PASCAL Recognising Textual Entailment Challenge (RTE-3), providing an overview of the dataset creating methodology and the submitted systems. In creating this year's dataset, a number of longer texts were introduced to make the challenge more oriented to realistic scenarios. Additionally, a pool of resources was offered so that the participants could share common tools. A pilot task was also set up, aimed at differentiating unknown entailments from identified contradictions and providing justifications for overall system decisions. 26 participants submitted 44 runs, using different approaches and generally presenting new entailment models and achieving higher scores than in the previous challenges.},
+booktitle = {Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing},
+pages = {1–9},
+location = {Prague, Czech Republic},
+series = {RTE '07}
 }
+```
+
+and 
+
+Bentivogli, L., Dagan, I., Dang, H.T., Giampiccolo, D., Magnini, B.: The Fifth PASCAL Recognizing Textual Entailment Challenge. In: Proceedings of the TAC Workshop (2009).
+
+
