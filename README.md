@@ -1,5 +1,5 @@
 # HuRTE
-This is the home repository for the Hungarian version of the Recognizing Textual Entailment datasets. This dataset is also part of the Hungarian Language Understanding Evaluation Benchmark Kit [HuLU](hulu.nlp.nytud.hu). The corpus was created by translating and re-annotating the instances of the RTE datasets that are part of the GLUE benchmark. 
+This is the home repository for the Hungarian version of the Recognizing Textual Entailment datasets. This dataset is also part of the Hungarian Language Understanding Evaluation Benchmark Kit [HuLU](hulu.nytud.hu). The corpus was created by translating and re-annotating the instances of the RTE datasets that are part of the GLUE benchmark. 
 
 ## Data
 
