@@ -15,7 +15,7 @@ The data files are in json format. The keys are the following:
 
 `premise`: the premise;
 
-'hypothesis': the hypothesis;
+`hypothesis`: the hypothesis;
 
 `label`: "1", if the premise entails the hypothesis, "0" otherwise.
 
