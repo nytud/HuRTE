@@ -1,11 +1,11 @@
 # HuRTE
-This is the home repository for the Hungarian version of the Recognizing Textual Entailment datasets. This dataset is also part of the Hungarian Language Understanding Evaluation Benchmark Kit [HuLU](hulu.nytud.hu). The corpus was created by translating and re-annotating the instances of the RTE datasets that are part of the GLUE benchmark. 
+This is the home repository for the Hungarian version of the Recognizing Textual Entailment datasets. This dataset is also part of the Hungarian Language Understanding Evaluation Benchmark Kit [HuLU](https://hulu.nytud.hu/). The corpus was created by translating and re-annotating the instances of the RTE datasets that are part of the GLUE benchmark. 
 
 ## Data
 
 The files are in the 'data' folder. The dataset contains 4 504 instances. These contain a (sometimes multi-sentence) premise and a one-sentence hypothesis, and the task is to decide whether the former entails the latter or not. The task is binary classification.
 
-The train, validation and test sets contain 2 131, 242 and 2 131 instances, respectively. The test set is distributed without the labels; to evaluate your model please contact us (ligeti-nagy.noemi@nytud.hu) or visit [HuLU's website](hulu.nytud.hu) for an automatic evaluation. The metric of the evaluation is MCC.
+The train, validation and test sets contain 2 131, 242 and 2 131 instances, respectively. The test set is distributed without the labels; to evaluate your model please contact us (ligeti-nagy.noemi@nytud.hu) or visit [HuLU's website](https://hulu.nytud.hu/) for an automatic evaluation. The metric of the evaluation is MCC.
 
 ## Data format
 
@@ -27,6 +27,37 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 ## Citation
 
 If you use this resource or any part of its documentation, please refer to:
+
+
+Noémi Ligeti-Nagy, Gergő Ferenczi, Enikő Héja, László János Laki, Noémi Vadász, Zijian Győző Yang, and Tamás Váradi. 2024. HuLU: Hungarian Language Understanding Benchmark Kit. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 8360–8371, Torino, Italia. ELRA and ICCL.
+
+```
+@inproceedings{ligeti-nagy-etal-2024-hulu-hungarian,
+    title = "{H}u{LU}: {H}ungarian Language Understanding Benchmark Kit",
+    author = "Ligeti-Nagy, No{\'e}mi  and
+      Ferenczi, Gerg{\H{o}}  and
+      H{\'e}ja, Enik{\H{o}}  and
+      Laki, L{\'a}szl{\'o} J{\'a}nos  and
+      Vad{\'a}sz, No{\'e}mi  and
+      Yang, Zijian Gy{\H{o}}z{\H{o}}  and
+      V{\'a}radi, Tam{\'a}s",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.733",
+    pages = "8360--8371",
+}
+```
+
+and to:
 
 Ligeti-Nagy, N., Ferenczi, G., Héja, E., Jelencsik-Mátyus, K., Laki, L. J., Vadász, N., Yang, Z. Gy. and Váradi, T. (2022) HuLU: magyar nyelvű benchmark adatbázis kiépítése a neurális nyelvmodellek kiértékelése céljából [HuLU: Hungarian benchmark dataset to evaluate neural language models]. In: Berend, G., Gosztolya, G. and Vincze, V. (eds), XVIII. Magyar Számítógépes Nyelvészeti Konferencia. Szeged, Szegedi Tudományegyetem, Informatikai Intézet. 431–446.
 
